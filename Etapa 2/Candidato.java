@@ -27,6 +27,9 @@ public class Candidato {
     public void setIntencoesVotos(int intencoesVotos) {
         this.intencoesVotos = intencoesVotos;
     }
-    
+    @Override
+    public String toString() {
+        return "\nInformações Candidato: \n Nome: " + nome + " |  Partido: " + partido + " | IntencoesVotos: " + intencoesVotos;
+    }
     
 }
